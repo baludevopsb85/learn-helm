@@ -71,4 +71,3 @@ data:
   food: {{ .food | upper | quote }}
   release: {{ $relname }}
   {{- end }}
-
